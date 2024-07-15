@@ -67,7 +67,7 @@ main {
 }
 
 .hero {
-  background: url("/Images/bgmain.jpg") no-repeat;
+  background: url("./Images/bgmain.jpg") no-repeat;
   background-size: 100%;
   background-position: center;
   height: 100%;
