@@ -21,7 +21,8 @@ This repository contains the code for a Personal Portfolio site created using HT
 
 ## Usage
 
-Open the `index.htm` file in your preferred web browser to view the Portfolio site of Abhijeet Bhattacharjee.   
+Copy the files in a directory.  
+Open the `index.html` file in your preferred web browser to view the Portfolio site of Abhijeet Bhattacharjee.   
 Modify the `Images`, `Skills`, and `Resume.pdf` contents based on your requirements. 
 
 
