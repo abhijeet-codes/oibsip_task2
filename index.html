@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Abhijeet Bhattacharjee</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <p class="logo">PORTFOLIO</p>
+            <ul class="navlinks">
+                <li><a href="" onclick="window.location.reload()">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="/Abhijeet's Resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="biodata">
+                <h1>Abhijeet Bhattacharjee</h1>
+                <h2>Developer</h2>
+                <h3>
+                    Hello! I'm Abhijeet Bhattacharjee, currently pursuing my undergraduate degree in engineering. I am deeply ambitious and committed to continuous learning and skill enhancement. Actively seeking opportunities to expand my knowledge in emerging technologies, I am eager to contribute innovative ideas and effective solutions to real-world challenges.
+                </h3>
+                <button><a href="/Abhijeet's Resume.pdf" download>Download Resume</a></button>
+            </div>
+            <div class="social">
+                <img src="/Images/linkedin.png" alt="linkedin" title="LinkedIn"
+                    onclick="window.open('https://www.linkedin.com/in/abhijeet-bhattacharjee-engdev', '_blank');" />
+                <img src="/Images/mail.png" alt="Gmail" title="Mail"
+                    onclick="window.open('https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZWPLRcbZdVLMdqzRSgHpdjhBggcDvXPDcmDLZPRZzpBpkrgJKQNZPsKlMCdZZTrdrptSV');" />
+                <img src="/Images/telegram.png" alt="linkedin" title="Telegram"
+                    onclick="window.open('https://t.me/abhiconnect', '_blank');" />
+            </div>
+            <img height="350px" width="350px" src="/Images/profilepic.png" alt="profilepic" />
+        </section>
+
+        <section class="skills" id="skills">
+            <h1>Top Skills</h1>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="/skills/html.png" alt="Skill 1">
+                    <h2>HTML5</h2>
+                </div>
+                <div class="skill">
+                    <img src="/skills/social.png" alt="Skill 2">
+                    <h2>CSS3</h2>
+                </div>
+                <div class="skill">
+                    <img src="/skills/js.png" alt="Skill 3">
+                    <h2>Javascript</h2>
+                </div>
+                <div class="skill">
+                    <img src="/skills/database.png" alt="Skill 4">
+                    <h2>SQL Database</h2>
+                </div>
+                <div class="skill">
+                    <img src="/skills/java.png" alt="Skill 5">
+                    <h2>Java</h2>
+                </div>
+                <div class="skill">
+                    <img src="/skills/python.png" alt="Skill 6">
+                    <h2>Python</h2>
+                </div>
+                <div class="skill">
+                    <img src="/skills/azure.png" alt="Skill 7">
+                    <h2>Azure Cloud</h2>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="projects" id="projects">
+            <h1>My Projects</h1>
+            <div class="project-container">
+                <div class="project">
+                    <h2>Restaurant Management System using Python</h2>
+                    <p>Created a Restaurant Management System with Python's List, Tuples and Dictionary concepts. A user
+                        can login/sign up using password and then order any food item from the displayed Menu followed
+                        by payment (virtual) interface consisting of Online/card/cash payment options. All the orders
+                        are visible to admin via the admin portal.</p>
+                </div>
+                <div class="project">
+                    <h2>Responsive Netflix Clone using HTML5 and CSS3</h2>
+                    <p>Developed a fully responsive Netflix clone using HTML5 and CSS3. The project replicates Netflix's user interface, featuring a dynamic and intuitive design. It includes functional elements such as a navigation bar, movie thumbnails, and a footer. The layout adapts seamlessly across various devices, providing an optimal viewing experience on desktops, tablets, and smartphones.</p>
+                </div>
+                <div class="project">
+                    <h2>Scalable Static Website Hosting with Azure Cloud Services</h2>
+                    <p>Implemented scalable static website hosting on Azure Cloud using virtual machines, networks, load balancers, application gateway, and DNS for high availability, performance, security, and seamless traffic management, ensuring optimal website accessibility and speed.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact-section" id="contact">
+            <h1>Contact Me</h1>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>Reach out to me in case of any Query, Work related Discussions or if you want to know more about me.<br>Let's have a Talk!</p>
+                    <p><strong>Address:</strong> Odisha, India - 751024</p>
+                    <p><strong>Email:</strong> abhijeetlogin22@gmail.com</p>
+                    <p><strong>Number:</strong> +458-1000-1010</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="text" name="number" placeholder="Your number" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="message" placeholder="Your message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+
+
+    </main>
+</body>
+
+</html>
